@@ -5,10 +5,13 @@ import {
   Text, View,
 
 } from 'react-native';
+import NvigBar from './navigation/NavigBar';
+
+
 
 const App = () => {
   return (
-    <Text> hello boha i am heez </Text>
+    <NvigBar />
   )
 }
 

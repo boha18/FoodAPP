@@ -12,6 +12,8 @@ target 'FoodAPP' do
     :hermes_enabled => false
   )
 
+  pod 'RNTextGradientView', :path => '../node_modules/react-native-text-gradient'
+
   target 'FoodAPPTests' do
     inherit! :complete
     # Pods for testing
